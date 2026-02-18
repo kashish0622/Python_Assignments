@@ -7,5 +7,5 @@ if __name__ == '__main__':
      a = list(map(int, input().split()))
      values.append(a)
 
-result = min_max(matrix)
+result = min_max(values)
 print(result)
