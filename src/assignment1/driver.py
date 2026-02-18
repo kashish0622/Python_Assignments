@@ -11,3 +11,4 @@ for i in range(n):
 
 query_name = input()
 average = avg(student_marks, query_name)
+print(round(average, 2))
