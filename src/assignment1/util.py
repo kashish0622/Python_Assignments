@@ -1,13 +1,13 @@
 def runcommands(my_list, command):
 
     if command[0] == 'insert':
-      my_list((command[1]), int(command[2]))
+      my_list.insert(int(command[1]), int(command[2]))
 
     elif command[0] == 'print': 
       print(my_list)
 
     elif command[0] == 'remove':
-      my_list.remove(command[0])
+      my_list.remove(int(command[1]))
 
     elif command[0] == 'append':
       my_list.append(int(command[1]))
