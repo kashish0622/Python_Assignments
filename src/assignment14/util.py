@@ -1,6 +1,6 @@
 import numpy as np
 def mean(matrix):
-    x = np.array(matrix, datatype = float)
+    x = np.array(matrix, dtype = float)
     mean_axis = np.mean(x, axis=1)
     variance_axis = np.var(x, axis=0)
     standard_axis = np.std(x, axis=None)
