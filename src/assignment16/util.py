@@ -3,8 +3,8 @@ def words(words):
     order = []
     for i in words:
         if i not in freq:
-            freq[w] = 1
-            order.append(w)
+            freq[i] = 1
+            order.append(i)
         else:
             freq[i] = freq[i] + 1
     count = []
