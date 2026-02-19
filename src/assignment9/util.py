@@ -4,7 +4,7 @@ def marks(n, columns, rows):
     total = 0
     for row in rows:
         student = Student(*row.split())
-    total += int(student.MARKS)
+        total += int(student.MARKS)
     average= total/n
 
     return(average)
