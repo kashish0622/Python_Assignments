@@ -1,7 +1,7 @@
-def words(words):
+def words(word):
     freq = {}
     order = []
-    for i in words:
+    for i in word:
         if i not in freq:
             freq[i] = 1
             order.append(i)

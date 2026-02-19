@@ -5,9 +5,9 @@ if __name__ == "__main__":
 
     word = []
     for i in range(n):
-        words.append(input())
+        word.append(input())
 
-    distinct_count, occurrences = words(word)
+    count, occurrence = words(word)
 
-    print(distinct_count)
-    print(*occurrences)
+    print(count)
+    print(*occurrence)
