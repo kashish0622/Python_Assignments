@@ -14,4 +14,4 @@ def block(cubes):
         else:
             return False
             
-        return True
+    return True
